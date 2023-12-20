@@ -120,3 +120,20 @@ h1, h2, h3{
 .contenido-hero h2, .contenido-hero p{
     color: var(--blanco);
 }
+
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366; /* Color de fondo de WhatsApp */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cambiar el color al pasar el ratón sobre el botón */
+}
